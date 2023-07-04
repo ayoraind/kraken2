@@ -1,0 +1,7 @@
+test*
+work
+*.nextflow*
+Sample_files
+.default_output
+KRAKEN*
+T*G23*
