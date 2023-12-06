@@ -25,6 +25,7 @@
 ## Introduction
 This pipeline calls taxonomy from uncorrected long reads derived from pure cultures or metagenomic samples. This Nextflow pipeline was adapted from the Kraken2's [github page](https://github.com/DerrickWood/kraken2/wiki), and the NF Core Modules [github page](https://github.com/nf-core/modules/blob/master/modules/nf-core/kraken2/kraken2). Inputs are fastqs specified using `--reads`. 
 
+A suitable database directory must be specified before this pipeline will run successfully. Further information on available kraken2 databases can be found [here](https://lomanlab.github.io/mockcommunity/mc_databases.html).
 
 ## Sample command
 An example of a command to run this pipeline is:
